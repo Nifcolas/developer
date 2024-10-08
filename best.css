@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.logo p a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(0, 81, 255);
+    font-weight: 150px;
+}
+.logo{
+    /* background-color: white; */
+}
+.nav-menu ul {
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+.nav-menu ul li a{
+    color: rgb(11, 209, 209);
+    text-decoration: none;
+    
+}
+.nav-menu ul li{
+    font-weight: bold;
+}
+.container{
+    background-color:rgb(11, 209, 209) ;
+    /* justify-content: center; */
+    /* margin-top: 5px; */
+    width: 100%;
+    /* max-width: max-content; */
+}
+.image img{
+    background-color: rgb(11, 209, 209);
+    /* border-radius: 100px; */
+    padding-left: 43%;
+    padding-top: 50px;
+}
+.text{
+    text-align: center;
+    /* gap: 20px; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-weight: bold; */
+    color: white;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+.text1 p{
+    font-size: 22px;
+    font-weight: bold;
+}
+.text2{
+    font-size: 19px;
+}
+.car{
+    margin: 50px;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+.welcome h3{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.welcome p{
+    font-size: 20px;
+}
+.welcome{
+    padding: 10px;
+    /* background-color: blue; */
+}
+.how{
+    padding: 10px;
+}
+.how h3{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.how p{
+    font-size: 20px;
+}
+.great{
+    padding: 10px;
+    /* background-color: blue; */
+}
+.great h3{
+    color: aquamarine;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.great p{
+    font-size: 20px;
+}
+.great img{
+    width: 360px;
+}

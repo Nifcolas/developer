@@ -1,0 +1,71 @@
+h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.allcards{
+    display: flex;
+    justify-content:space-evenly; 
+}
+.card1{
+    border-radius: 20px;
+    background-color:beige;
+    margin: 30px;
+    text-decoration: solid;
+    text-transform: capitalize;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.card2{
+    border-radius: 20px;
+    background-color:rgb(224, 230, 214);
+    margin: 30px;
+}
+.card3{
+    border-radius: 20px;
+    background-color:rgb(202, 222, 224);
+    margin: 30px;
+}
+.card4{
+    border-radius: 20px;
+    background-color:rgb(218, 209, 193);
+    margin: 30px;
+}
+#black{
+    height: 300px;
+    width: 300px;
+}
+#water{
+    height: 300px;
+    width: 300px;
+}
+#fine{
+    height: 300px;
+    width: 300px;
+}
+#inside{
+    height: 300px;
+    width: 300px;
+}
+.page{
+    margin: 0%;
+    padding: 0%;
+}
+#text1{
+    padding: 0%;
+}
+.image1{
+    position: relative;
+}
+.get p{
+    position: absolute;
+    top: 150px;
+    margin-left: 40px;
+    font-weight: 800;
+    font-size: 30px;
+    background-color: rgba(100, 100, 103, 0.4);
+    text-align: center;
+    color: white;
+}

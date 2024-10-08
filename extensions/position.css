@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    background-color: rgb(101, 101, 101);
+    padding: 20px;
+}
+.logo{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+    font-weight: 900;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.nav-menu ul li a{
+    color: whitesmoke;
+    font-family: cursive;
+}
+.content{
+    margin-top: 90px;
+    padding: 20px;
+    position: relative;
+}
+.image img{
+    position: absolute;
+    right: 0;
+}

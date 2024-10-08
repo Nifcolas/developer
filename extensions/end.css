@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(106, 80, 12);
+    position: relative;
+}
+.container{
+    background-color: white;
+    box-sizing: border-box;
+    width: 500px;
+    height: 330px;
+    position: absolute;
+    top: 130px;
+    left: 400px;
+    border-radius: 10px;
+    /* padding: 70px; */
+    /* padding-left: 100px; */
+}
+.crown img{
+    align-items: center;
+    padding-left: 180px;
+    padding-top: 50px;
+    /* justify-content: center; */
+    height: 150px;
+    color: goldenrod;
+    /* padding-bottom: 30px; */
+}
+.text{
+    padding-top: 20px;
+}
+.text1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 500px;
+    padding-left: 100px;
+}
+.text2 p{
+    padding-left: 80px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.last{
+    display: flex;
+    padding-top: 30px;
+    gap: 50px;
+    box-sizing:border-box;
+    justify-content: center;
+}
+.replay p a{
+    color: goldenrod;
+    background-color:whitesmoke;
+    padding: 10px;
+    /* border-color: goldenrod; */
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;   
+}
+.quit p a{
+    color: goldenrod;
+    background-color:whitesmoke;
+    padding: 10px;
+    /* border-color: goldenrod; */
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;
+}
+.replay p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.replay p a:active{
+    color: goldenrod;
+}
+.quit p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.quit p a:active{
+    color: goldenrod;
+}

@@ -1,0 +1,48 @@
+.navbar{
+    box-sizing: border-box;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    text-transform: capitalize;
+    margin-top: 0px; 
+    margin-left: 0%;
+    align-items: center;
+    padding: -30px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 40px;
+}
+.nav-menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo{
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-right: 0px;
+}
+.aboutme{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image img{
+    /* box-sizing: border-box; */
+    border-radius: 200px;
+    height:200px;
+}
+.info p{
+    font-size: 30px
+}
+.info{
+    margin-left: -350px;
+    margin-top: 60px;
+}

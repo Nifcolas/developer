@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(106, 80, 12);
+    position: relative;
+}
+.container{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 460px;
+    height: 270px;
+    position: absolute;
+    top: 150px;;
+    left: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.head h2{
+    text-transform: capitalize;
+    font-weight: 800px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+.text ol li{
+    /* padding-left: 10px; */
+    padding-top: 10px;
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    padding-left: 200px;
+    font-size: 16px;
+}
+.footer1{
+    box-sizing: border-box;
+    /* width: 60px; */
+    /* border-color: black; */
+}
+.footer1 p a{
+    color: goldenrod;
+    background-color:whitesmoke;
+    padding: 10px;
+    /* border-color: goldenrod; */
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;
+}
+.footer2 p a{
+    color: whitesmoke;
+    background-color: goldenrod;
+    padding: 10px;
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;
+}
+.text ol li span{
+    color: blue;
+}
+.footer1 p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.footer1 p a:active{
+    color: goldenrod;
+}
+.footer2 p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.footer2 p a:active{
+    color:goldenrod ;
+}

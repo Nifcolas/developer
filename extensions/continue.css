@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color:rgb(106, 80, 12);
+    position: relative;
+}
+.container{
+    background-color: whitesmoke;
+    box-sizing: border-box;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    /* padding-left: 30px; */
+    border-radius: 8px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.texthe p{
+    text-transform: capitalize;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500px;
+}
+.time{
+    box-sizing: border-box;
+    border-radius: 7px;
+    padding: 10px;
+    padding-right: 15px;
+}
+.time p{
+    background-color: rgb(252, 213, 115);
+    box-sizing: border-box;
+    width: 120px;
+    padding: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.time p span{
+    background-color: black;
+    color: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 3px;
+    width: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.inside{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+}
+.ethane h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 100px;
+    padding-bottom: 20px;
+}
+.options li{
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 8px;
+    background-color: rgb(230, 213, 170);
+    margin-bottom: 10px;
+}
+.tail{
+    padding: 10px;
+    /* justify-content: space-between; */
+}
+.last p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200px;
+}
+.end{
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+}
+.next p a{
+    color: goldenrod;
+    background-color:whitesmoke;
+    padding: 10px;
+    /* border-color: goldenrod; */
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;
+}
+.previous p a{
+    color: whitesmoke;
+    background-color: goldenrod;
+    padding: 10px;
+    box-shadow: 0 0 5px goldenrod;
+    border-radius: 10px;
+}
+.next p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.next p a:active{
+    color: goldenrod;
+}
+.previous p a:hover{
+    background: black;
+    color: whitesmoke;
+}
+.previous p a:active{
+    color: goldenrod;
+}
